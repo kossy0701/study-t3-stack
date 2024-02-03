@@ -8,6 +8,10 @@ await import("./src/env.js");
 
 const config = {
   reactStrictMode: true,
+  i18n: {
+    locales: ['en', 'ja'],
+    defaultLocale: 'ja',
+  },
 };
 
 export default config;
